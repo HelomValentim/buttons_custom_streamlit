@@ -18,7 +18,7 @@ pip install streamlit
 
 ## Usage
 
-Import the functions and use them in your Streamlit app. All custom button functions maintain the same parameters as ```python st.button: ```
+Import the functions and use them in your Streamlit app. All custom button functions maintain the same parameters as ``` st.button: ```
 
 ```python
 import streamlit as st
