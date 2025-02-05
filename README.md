@@ -27,7 +27,7 @@ from custom_buttons import btn_blue, btn_orange, btn_green, btn_red, btn_style
 if btn_blue("Blue Button", key="btn1"):
     st.write("Blue button clicked!")
 
-if btn_style("Custom Button", txtColor="#FFFFFF", bgColor="#000000", hoverBgColor="#555555"):
+if btn_style("Custom Button", txtColor="#FFFFFF", bgColor="#000000", hoverBgColor="#555555", help="Custom Button"):
     st.write("Custom button clicked!")
 ```
 
