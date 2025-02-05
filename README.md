@@ -18,13 +18,13 @@ pip install streamlit
 
 ## Usage
 
-Import the functions and use them in your Streamlit app:
+Import the functions and use them in your Streamlit app. All custom button functions maintain the same parameters as ```python st.button: ```
 
 ```python
 import streamlit as st
 from custom_buttons import btn_blue, btn_orange, btn_green, btn_red, btn_style
 
-if btn_blue("Blue Button"):
+if btn_blue("Blue Button", key="btn1"):
     st.write("Blue button clicked!")
 
 if btn_style("Custom Button", txtColor="#FFFFFF", bgColor="#000000", hoverBgColor="#555555"):
